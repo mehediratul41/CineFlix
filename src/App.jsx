@@ -22,7 +22,7 @@ function App() {
         fetchApiConfig();
         // genresCall();
     },[]);
-
+    ///Fetching apiconfiguration file
     const fetchApiConfig = () => {
         fetchDataFromApi("/configuration").then((res) => {
             console.log(res);
